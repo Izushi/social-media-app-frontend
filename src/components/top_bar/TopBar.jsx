@@ -1,14 +1,14 @@
 import React from 'react'
 import { Chat, Notifications, Search } from '@mui/icons-material';
-import './Topbar.css';
+import './TopBar.css';
 
-export default function Topbar() {
+export default function TopBar() {
   return (
-  <div className='topbarContainer'>
-    <div className="topbarLeft">
+  <div className='topBarContainer'>
+    <div className="topBarLeft">
       <span className="logo">Social Media App</span>
     </div>
-    <div className="topbarCenter">
+    <div className="topBarCenter">
       <div className="searchbar">
         <Search className="searchIcon" />
         <input
@@ -18,17 +18,17 @@ export default function Topbar() {
         />
       </div>
     </div>
-    <div className="topbarRight">
-      <div className='topbarItemIcons'>
-        <div className="topbarIconItem">
+    <div className="topBarRight">
+      <div className='topBarItemIcons'>
+        <div className="topBarIconItem">
           <Chat />
-          <span className="topbarIconBadge">1</span>
+          <span className="topBarIconBadge">1</span>
         </div>
-        <div className="topbarIconItem">
+        <div className="topBarIconItem">
           <Notifications />
-          <span className="topbarIconBadge">2</span>
+          <span className="topBarIconBadge">2</span>
         </div>
-        <img src="/assets/person/1.jpeg" alt="" className='topbarImg' />
+        <img src="/assets/person/1.jpeg" alt="" className='topBarImg' />
       </div>
     </div>
   </div>

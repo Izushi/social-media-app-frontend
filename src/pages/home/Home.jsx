@@ -1,10 +1,10 @@
 import React from 'react'
-import Topbar from '../../components/topbar/Topbar'
+import TopBar from '../../components/top_bar/TopBar'
 
 export default function Home() {
   return (
     <>
-      <Topbar />
+      <TopBar />
       {/* sidebar */}
       {/* timeline */}
       {/* rightbar */}
