@@ -1,0 +1,17 @@
+.post {
+  width: 100%;
+  box-shadow: 3px 7px 21px -11px #486670;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
