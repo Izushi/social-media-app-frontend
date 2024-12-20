@@ -8,7 +8,7 @@ export default function RightBar() {
         <div className="eventContainer">
           <img src="assets/star.png" alt="" className='starImg' />
           <span className="eventText">
-            <b>Now holding followers-only event</b>
+            <b>Now holding followers only event</b>
           </span>
         </div>
         <img src="assets/event.jpeg" alt="" className='eventImg' />
